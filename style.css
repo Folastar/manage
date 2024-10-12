@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+font-family: "Be Vietnam Pro", sans-serif;
+font-weight: 400;
+font-style: normal;
+position: relative;
+
+
+}
+ 
+
+#bg-simplify{
+    background-image:   url('images/illustration-intro.svg');
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+    background-position:top right;
+    padding: 0 10%;
+    
+}
+
+#bottom-simply{
+    background-image: url('images/bg-simplify-section-mobile.svg') ;
+    background-repeat: no-repeat;
+    background-position: left, center;
+    /* height: 400px; */
+    background-size: contain;
+}
+#header-tab{
+    background-image: url('images/bg-tablet-pattern.svg');
+    background-position:200% -10%;
+    background-size:85%,100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
+#product-tab{
+    background-image: url('images/bg-tablet-pattern.svg');
+    background-position:500% 100%;
+    background-size:90%,50%;
+    background-repeat: no-repeat;   
+}
+.img-fluid{
+    width: 80x;
+    height: 80px;
+}
+
+:root{
+
+   --ddfdfd-f: #9095a7;
+    --dfdfdf-f: #1d1e25;
+   --fddsffd:  #ffefeb;
+   --dfdfd-: #fafafa;
+
+   --BrightRed: #f25f3a;
+   --DarkBlue: #242d52;
+}
+
+
+@media only screen and (min-width:768px){
+    #header-tab{
+        background-image: url('images/bg-tablet-pattern.svg');
+        background-position:100% 90%;
+        background-size:50%,80%;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+
+    #product-tab{
+
+        background: none;
+       
+    }
+  
+    #bg-simplify{
+        background-image:   url('images/illustration-intro.svg');
+        background-repeat: no-repeat;
+        height: 400px;
+        background-size: contain;
+        background-position:top right;
+        padding: 0 10%;
+        
+    }
+    #bottom-simply{
+        background-image: url('images/bg-simplify-section-mobile.svg'),  url('images/bg-simplify-section-mobile.svg');
+        background-size:  10%;
+        background-repeat: repeat-y;
+        background-position: 0%, 105%;
+    }
+
+
+   
+
+}
