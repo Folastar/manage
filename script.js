@@ -19,6 +19,6 @@ closed.addEventListener('click', ()=>{
     navDisplay.classList.add('hidden')
     hamburger.classList.remove('hidden')
     closed.classList.add('hidden')
-    body.style.overflow='hidden'
+    body.style.overflow='visible'
 
 })

@@ -15,8 +15,8 @@ position: relative;
     background-image:   url('images/illustration-intro.svg');
     background-repeat: no-repeat;
     height: 400px;
-    background-size: cover;
-    background-position:top right;
+    background-size: 75%;
+    background-position:center;
     padding: 0 10%;
     
 }
